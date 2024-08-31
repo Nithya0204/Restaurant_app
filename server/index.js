@@ -52,7 +52,7 @@ app.get('/menu-items', (req, res) => {
 app.get('/menu-items/:id', (req, res) => {
   const item = menuItems.find(i => i.id === req.params.id);
   if (!item) return res.status(404).json({ message: "Item not found" });
-  res.json(item);
+  res.json({dbResponse:item, message:"Here is your single menu item"});
 });
 
 // Update a Menu Item
