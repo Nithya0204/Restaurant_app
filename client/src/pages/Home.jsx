@@ -64,6 +64,10 @@ const Home = () => (
             <p>"Excellent atmosphere and delicious meals."</p>
             <span>- Swapna</span>
           </div>
+          <div className="review">
+            <p>"The most delightful and memorable dining experience I've enjoyed in years."</p>
+            <span>- Ajay Kumar</span>
+          </div>
         </div>
       </section>
     </main>

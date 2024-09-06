@@ -14,7 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { useNavigate } from "react-router-dom";
 import CookieIcon from "@mui/icons-material/Cookie";
 
-const pages = ["Home", "Menu", "Reservation"];
+const pages = ["Home", "Menu", "Reservation","Order","Review"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function Navbar() {

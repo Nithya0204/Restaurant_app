@@ -75,7 +75,7 @@ const ReservationForm = () => {
         value={formData.specialRequests}
         onChange={handleChange}
       />
-      <button type="submit">Reserve</button>
+      <button type="submit">Submit</button>
     </form>
   );
 };
